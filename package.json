@@ -1,0 +1,17 @@
+{
+  "name": "cucumber-deep-dive",
+  "version": "1.0.0",
+  "description": "A deep dive session on cucumberjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js",
+    "report": "node index.js"
+  },
+  "author": "anshad",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^5.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
